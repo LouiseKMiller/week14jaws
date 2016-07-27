@@ -16,10 +16,10 @@ var source = {
     },
     jawsDB: {
         port: 3306,
-        host: 'izm96dhhnwr2ieg0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-        user: 'aeiga70f0ibcqiey',
-        password: "p13pssuaw1xjdadd",
-        database: "qcbq4jjqjbf755bt"
+        host: 'z12itfj4c1vgopf8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+        user: 'b22h4tt271ra88xa',
+        password: "aqsmivlojccy5glw",
+        database: "zveqdo7957k6ri9b"
 
         // TODO: Add your JawsDB connection info here
     }
@@ -27,7 +27,7 @@ var source = {
 
 
 // TODO: connect your jawsDB connection witht he mysql connection.
-var connection = mysql.createConnection(source.jawsDB); //enter connection here);
+var connection = mysql.createConnection( //enter connection here);
 
 
 
